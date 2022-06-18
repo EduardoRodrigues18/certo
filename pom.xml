@@ -13,9 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ApiRest_Tenis</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>7</java.version>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -69,7 +66,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.0</version>
+            <version>1.8.0</version>
             <configuration>
                 <release>12</release>
                 <compilerArgs>--enable-preview</compilerArgs>
@@ -79,7 +76,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-shade-plugin</artifactId>
-            <version>3.1.0</version>
+            <version>1.8.0</version>
             <executions>
                 <execution>
                     <phase>package</phase>
